@@ -1,0 +1,19 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "split": "node --max-old-space-size=4096 split.js",
+    "import": "node importUpdatedJson.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ramda": "^0.30.1"
+  },
+  "dependencies": {
+    "JSONStream": "^1.3.5"
+  }
+}
